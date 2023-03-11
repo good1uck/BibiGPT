@@ -2,7 +2,7 @@
   "private": true,
   "name": "bibi-gpt",
   "scripts": {
-    "dev": "next dev",
+    "dev": "cross-env NODE_OPTIONS=--max-old-space-size=4096 next dev",
     "build": "next build",
     "start": "next start"
   },
