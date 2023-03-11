@@ -40,7 +40,7 @@ export function ActionsAfterResult({
       >
         一键复制
       </button>
-      {flomoWebhook ? (
+      {/* {flomoWebhook ? (
         <button
           className="flex w-44 cursor-pointer items-center justify-center rounded-lg bg-green-400 px-2 py-1 text-center font-medium text-white hover:bg-green-400/80"
           onClick={save}
@@ -59,7 +59,7 @@ export function ActionsAfterResult({
         >
           📒 一键保存到笔记
         </Link>
-      )}
+      )} */}
     </div>
   );
 }
