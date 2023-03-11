@@ -26,7 +26,7 @@ export default function Footer() {
           Vercel Edge Functions.
         </a>
       </div>
-      {/* <div className="flex items-center space-x-1">
+      {/*delelte me later <div className="flex items-center space-x-1">
         <Link href="/privacy" className="group" aria-label="隐私声明">
           Privacy Statement
         </Link>
