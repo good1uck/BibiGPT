@@ -19,7 +19,7 @@ export default function Header({
 }) {
   return (
     <header className="supports-backdrop-blur:bg-white/60 max-w-8xl sticky top-0 z-40 mx-auto w-full flex-none border-b border-slate-900/10 bg-white/95 pt-2 backdrop-blur  transition-colors duration-500 dark:border-slate-50/[0.06] dark:border-slate-300/10 dark:bg-transparent lg:z-50 lg:mx-0 lg:border-0 lg:border-b lg:border-slate-900/10 lg:px-8">
-      <div className="flex items-center justify-between px-3 sm:px-3">
+      <div style={{ visibility: "collapse" }} className="flex items-center justify-between px-3 sm:px-3" >
         <div className="flex items-center space-x-3">
           <a
             href="https://space.bilibili.com/37648256"
@@ -59,7 +59,7 @@ export default function Header({
                 <circle cx="1" cy="1" r="1"></circle>
               </svg>
               <span className="ml-2 hidden min-[1372px]:inline">
-                开源项目，开发者日记 · 支持 YouTube 英文视频，一键保存到 Flomo 浮墨笔记 🎉
+                {/* 开源项目，开发者日记 · 支持 YouTube 英文视频，一键保存到 Flomo 浮墨笔记 🎉 */}
               </span>
               <svg
                 width="3"

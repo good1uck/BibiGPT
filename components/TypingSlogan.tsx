@@ -13,14 +13,14 @@ export function TypingSlogan() {
             sequence={[
               "哔哩哔哩",
               2000,
-              "YouTube",
-              2000,
-              "播客",
-              2000,
-              "会议",
-              2000,
-              "本地文件",
-              3000,
+              // "YouTube",
+              // 2000,
+              // "播客",
+              // 2000,
+              // "会议",
+              // 2000,
+              // "本地文件",
+              // 3000,
               () => {
                 console.log("Done typing!"); // Place optional callbacks anywhere in the array
               },
